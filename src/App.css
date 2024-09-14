@@ -1,0 +1,30 @@
+
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('https://imgs.search.brave.com/z9Wpt5va0H1s71iKDFaDrpWzZ2AEsXvU7Hm-hf7Z_xU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzc0Lzlh/L2ViLzc0OWFlYjI4/NjVlMzU1MDE3YTM5/NDAxYWQxZmQ1NTU0/LmpwZw') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  input::placeholder {
+    color: #ccc; /* Lighter color for placeholders */
+  }
+  
+  ul {
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent dark background for suggestions */
+    border-radius: 12px;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.9); /* Dark transparent header */
+  }
+  
